@@ -4,7 +4,7 @@ The data is first ingested into a MongoDB database (staging layer) before releva
 and loaded into a PostgreSQL relational database.
 
 ## Quick Start
-Start the MongoDB and PostgreSQL servers. The data will be mounted at `./data` directory by running
+Start the MongoDB and PostgreSQL servers (data will be mounted at `./data` directory) by running
 ```
 docker-compose up
 ```
